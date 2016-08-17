@@ -1,0 +1,17 @@
+.screen {
+    position: absolute;
+    top: 58px;
+    left: 336px;
+    z-index: 5;
+    height: 355px;
+    width: 681px;
+}
+
+.macbook {
+    position: absolute;
+    top: 27px;
+    left: 183px;
+    z-index: 3;
+    height: 527px;
+    width: 983px;
+}
