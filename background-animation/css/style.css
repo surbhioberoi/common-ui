@@ -1,0 +1,16 @@
+body {
+    background-image: url("https://s-passets-cache-ak0.pinimg.com/webapp/style/app/common/images/inspired-desktop/bg_pasta_grid-9732e3e3.jpg");
+}
+
+.bg-animate {
+    animation: bg 35s linear;
+}
+
+@keyframes bg {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-330px);
+    }
+}
