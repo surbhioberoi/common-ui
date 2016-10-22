@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #f2f2f2;
+    box-shadow: 4px 7px 7px #888888;
+    margin: 20%;
+}
+
+h1 {
+    color: #444;
+    font-weight: lighter;
+}

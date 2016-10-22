@@ -1,0 +1,20 @@
+html,
+.blur:before {
+    background: url(http://placekitten.com/1200/500);
+    background-repeat: no-repeat;
+    margin: 6%;
+}
+
+.blur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    height: 250px;
+    width: 1180px;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 100px;
+    font-weight: normal;
+    font-family: "Megrim", sans-serif;
+}

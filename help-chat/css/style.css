@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    height: 800px;
+    margin: 5%;
+}
+
+.button {
+    position: fixed;
+    right: 80px;
+    bottom: 30px;
+    width: 80px;
+    height: 60px;
+    display: block;
+    cursor: pointer;
+    z-index: 10;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.content {
+    text-align: center;
+    color: #777;
+}
+
+.box {
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    position: fixed;
+    right: 80px;
+    bottom: 100px;
+    z-index: 10;
+    display: none;
+    background-color: #FAFDFF;
+    border-radius: 10px;
+}
+
+.chat {
+    height: 80px;
+    width: 300px;
+    background-color: #1F8CEB;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #565867;
+    background-color: #f0f3f5;
+    border: none;
+    height: 47px;
+    width: 280px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input:focus {
+    outline: 0;
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: #444;
+    font-size: 3em;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 80vw;
+}
+
+.start {
+    flex: 1;
+    text-align: right;
+    padding-right: 0.2em;
+}
+
+.animation {
+    flex: 1;
+}
+
+#text {
+    color: #444;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-name: text-a;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text-a {
+    0% {
+        color: orange;
+    }
+    100% {
+        color: #444;
+    }
+}
